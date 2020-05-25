@@ -15,6 +15,9 @@ CVE_VERSION = "${KERNEL_VERSION}"
 # TODO: Change to version
 SRCBRANCH = "zeus"
 
+# Install tools
+IMAGE_INSTALL += "i2c-tools"
+
 # Commit number update based on new commits
 SRCREV = "4bb02b19636897a6a0ef2269a24685f6f007843d"
 
